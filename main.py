@@ -2,6 +2,9 @@ import disnake
 from disnake.ext import commands
 import os
 
+# for this to work properly you need to go to the following cogs and change the name of the sever "Theleaksmp" to the name of your server
+
+
 client = commands.Bot(command_prefix = '>')
 
 from dotenv import load_dotenv
